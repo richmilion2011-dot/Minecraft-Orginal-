@@ -1,0 +1,4 @@
+# Replace game.example.com with your domain, pointed to the server VM.
+game.example.com {
+    reverse_proxy 127.0.0.1:2567
+}

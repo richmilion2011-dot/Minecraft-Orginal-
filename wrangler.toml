@@ -1,0 +1,12 @@
+name = "voxelworld-multiplayer"
+main = "src/index.js"
+compatibility_date = "2026-11-06"
+compatibility_flags = ["nodejs_compat"]
+
+[[durable_objects.bindings]]
+name = "HUB"
+class_name = "VoxelRoomHub"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["VoxelRoomHub"]
